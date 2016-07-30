@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caffreyzheng.github.io/"/>
-  <updated>2016-07-30T03:06:18.000Z</updated>
+  <updated>2016-07-30T05:32:05.000Z</updated>
   <id>http://caffreyzheng.github.io/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jenkins Ios Build Ipa</title>
+    <link href="http://caffreyzheng.github.io/2016/07/30/Jenkins-Ios-Build-Ipa/"/>
+    <id>http://caffreyzheng.github.io/2016/07/30/Jenkins-Ios-Build-Ipa/</id>
+    <published>2016-07-30T05:04:22.000Z</published>
+    <updated>2016-07-30T05:32:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Jenkins-Ios-Build-Ipa-upload-fir-im"><a href="#Jenkins-Ios-Build-Ipa-upload-fir-im" class="headerlink" title="Jenkins Ios Build Ipa upload fir.im"></a>Jenkins Ios Build Ipa upload fir.im</h2><h3 id="install-jenkins"><a href="#install-jenkins" class="headerlink" title="install jenkins"></a>install jenkins</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install jenkins</div></pre></td></tr></table></figure>
+<h3 id="start-jenkins"><a href="#start-jenkins" class="headerlink" title="start jenkins"></a>start jenkins</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ nohup jenkins &amp;</div></pre></td></tr></table></figure>
+<h3 id="install-fir-cli"><a href="#install-fir-cli" class="headerlink" title="install fir-cli"></a>install fir-cli</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ gem install fir-cli</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Jenkins-Ios-Build-Ipa-upload-fir-im&quot;&gt;&lt;a href=&quot;#Jenkins-Ios-Build-Ipa-upload-fir-im&quot; class=&quot;headerlink&quot; title=&quot;Jenkins Ios Build Ipa 
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
