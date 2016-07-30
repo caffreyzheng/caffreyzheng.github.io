@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caffreyzheng.github.io/"/>
-  <updated>2016-07-30T10:19:00.000Z</updated>
+  <updated>2016-07-30T10:22:31.000Z</updated>
   <id>http://caffreyzheng.github.io/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <title>Jenkins Ios Build Ipa upload fir.im</title>
     <link href="http://caffreyzheng.github.io/2016/07/30/Jenkins-Ios-Build-Ipa/"/>
     <id>http://caffreyzheng.github.io/2016/07/30/Jenkins-Ios-Build-Ipa/</id>
-    <published>2016-07-30T10:19:00.000Z</published>
-    <updated>2016-07-30T10:19:00.000Z</updated>
+    <published>2016-07-30T10:22:31.000Z</published>
+    <updated>2016-07-30T10:22:31.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="install-jenkins"><a href="#install-jenkins" class="headerlink" title="install jenkins"></a>install jenkins</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install jenkins</div></pre></td></tr></table></figure>
 <p><a href="https://brew.sh" target="_blank" rel="external"><strong>how to install brew</strong></a></p>
@@ -33,7 +33,7 @@
 <li><p>配置构建内容<br><img src="/img/4.png" alt=""></p>
 <figure class="highlight plain"><figcaption><span>security unlock-keychain -p "passwd"  "/Users/boo/Library/Keychains/login.keychain"  解锁keychain，passwd是你当前用户的登录密码。</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
 <figure class="highlight plain"><figcaption><span>fir bi . -o build/BOO 用fir 命令行构建xcode项目</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
-<figure class="highlight plain"><figcaption><span>[**fir 具体用法**](https://github.com/FIRHQ/fir-cli/blob/master/README.md)</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
+<figure class="highlight plain"><figcaption><span>[**fir-cli 具体用法**](https://github.com/FIRHQ/fir-cli/blob/master/README.md)</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
 <p>5.常见问题解决方案</p>
 </li>
 </ol>
