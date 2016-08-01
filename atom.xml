@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://caffreyzheng.github.io/"/>
-  <updated>2016-07-30T10:27:30.000Z</updated>
+  <updated>2016-08-01T02:13:44.000Z</updated>
   <id>http://caffreyzheng.github.io/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Jenkins Ios Build Ipa upload fir.im</title>
-    <link href="http://caffreyzheng.github.io/2016/07/30/Jenkins-Ios-Build-Ipa/"/>
-    <id>http://caffreyzheng.github.io/2016/07/30/Jenkins-Ios-Build-Ipa/</id>
-    <published>2016-07-30T10:27:30.000Z</published>
-    <updated>2016-07-30T10:27:30.000Z</updated>
+    <link href="http://caffreyzheng.github.io/2016/08/01/Jenkins-Ios-Build-Ipa/"/>
+    <id>http://caffreyzheng.github.io/2016/08/01/Jenkins-Ios-Build-Ipa/</id>
+    <published>2016-08-01T02:13:44.000Z</published>
+    <updated>2016-08-01T02:13:44.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="install-jenkins"><a href="#install-jenkins" class="headerlink" title="install jenkins"></a>install jenkins</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ brew install jenkins</div></pre></td></tr></table></figure>
 <p><a href="https://brew.sh" target="_blank" rel="external"><strong>how to install brew</strong></a></p>
@@ -38,8 +38,13 @@
 <p><a href="https://github.com/FIRHQ/fir-cli/blob/master/README.md" target="_blank" rel="external"><strong>fir-cli 具体用法</strong></a></p>
 </li>
 </ol>
-<p>5.常见问题解决方案</p>
-</li>
+<p>5.常见问题解决方案<br> 5.1 jenkins打iOS的包老是报错，User interaction is not allowed</p>
+<pre><code>解决方案：在应用程序里搜索Keychain Access，中文叫钥匙串访问权限。找到你的证书，右击 — 显示简介 — 访问控制 — 选中【允许所有应用程序访问此项目】 — 存储更攺 — 输入密码后保存更攺，解决问题。    
+</code></pre><p> 5.2 在编译log中发现：CSSMERR_TP_NOT_TRUSTED</p>
+<pre><code>解决方案：
+5.2.1 下载 Apple Woldwide Developer Relations Certification Authority证书，地址：https://developer.apple.com/certificationauthority/AppleWWDRCA.cer
+5.2.2 修改Apple Woldwide Developer Relations Certification Authority和开发者的证书权限为:&quot;系统默认&quot;
+</code></pre></li>
 </ol>
 ]]></content>
     
